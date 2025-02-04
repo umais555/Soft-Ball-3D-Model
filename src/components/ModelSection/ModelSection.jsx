@@ -14,7 +14,7 @@ const ModelSection = () => {
   const cameraRef = useRef(null);
   const controlsRef = useRef(null);
   const ballsRef = useRef([]);
-  const [sceneReady, setSceneReady] = useState(false);
+  const [, setSceneReady] = useState(false);
 
   useEffect(() => {
     if (!modelContainerRef.current) return;

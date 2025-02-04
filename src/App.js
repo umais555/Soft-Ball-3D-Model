@@ -7,7 +7,6 @@ import Programs from "./components/Programs/Programs";
 import Schedule from "./components/Schedule/Schedule";
 import Testimonial from "./components/Testimonial/Testimonial";
 import ModelSection from "./components/ModelSection/ModelSection";
-import ExtraModelSection from "./components/ExtraModelSection/ExtraModelSection";
 function App() {
   return (
     <div className=" bg-white my-2 mx-4 rounded-lg min-h-screen pt-1 ">
